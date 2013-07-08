@@ -29,6 +29,12 @@
 	"suggest":     {
 		"monolog/monolog": "Allows more advanced logging of the application flow"
 	},
+    	"repositories": [
+        {
+           "type": "vcs",
+           "url": "https://github.com/wormling/uecode-bundle"
+        }
+        ],
     "autoload":    {
         "psr-0": {
             "Uecode\\Bundle\\DaemonBundle": ""
